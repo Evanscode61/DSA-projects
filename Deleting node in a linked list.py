@@ -20,7 +20,7 @@ def delete_by_value(head, value):
         current = current.next
      # Delete value if it was found.
     if current.next:
-        current.next = curren
+        current.next = current.next.next
 
     return head
 
