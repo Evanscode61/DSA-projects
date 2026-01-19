@@ -1,8 +1,0 @@
-# Implementing linked list traversal
-# initialize node with data
-class Node:
-    def __ init__(self, new_data):
-
-
-
-

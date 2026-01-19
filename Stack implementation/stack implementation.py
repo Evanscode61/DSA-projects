@@ -6,9 +6,16 @@ class stack:
     #checking if the stack has no value at all
     def isEmpty(self):
         return len.items == 0
-    #check the lenght of the stack
+    #check the length of the stack
     def size(self):
         return len(self.items)
+    def push(self,value):
+        if self.isFull():
+            print("stack overflow")
+            return
+        self.top += 1
+        self.items[self.top] =value
+
     #remove and return the top item of the stack
     def pop(self):
         if self.isEmpty():
